@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: 0;
+}
+
+
+.wrapper {
+    min-height: 100%;
+
+}
+
+.hero {
+    height: 100vh;
+    background-image: url(../img/banner-may-9-military-st-george-ribbon-flowers-space-text-great-victory-day_321377-770.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 5px;
+
+}
+
+.content {}
+
+.nav {
+    color: black;
+    padding-top: 10px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__item {
+    width: 1170px;
+    height: 25px;
+    font-size: 24px;
+}
+
+.nav__link {}
+
+.hero__content {}
+
+.title {
+    font-weight: 80;
+    font-size: 55px;
+    color: black;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.subtitle {
+    text-align: center;
+    padding-top: 30px;
+    width: 1170px;
+    font-size: 20px;
+}
+
+.hero__img {}
+
+.hero__img-wrap {
+    border-radius: 20px;
+    height: 432px;
+    position: absolute;
+    margin: 0 auto;
+
+}
