@@ -76,6 +76,7 @@ p {
     top: 0;
     width: 100%;
     font-size: 25px;
+    z-index: 1;
 }
 
 .nav__list a {
